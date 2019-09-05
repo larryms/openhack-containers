@@ -14,11 +14,11 @@ Your first challenge is to verify that the Points of Interest (POI) application 
 
 ![DesiredArchChallenge1.png](./images/DesiredArchChallenge1.png)
 
-You can find the source code and **[Dockerfile](https://docs.docker.com/engine/reference/builder/)** for each microservice of the full TripInsights application is provided **[here](https://github.com/vyta/openhack-containers)**.by building and running Docker containers locally. Match the `Dockerfile` to the source code to build the POI application.
+The source code  and [Dockerfile](https://docs.docker.com/engine/reference/builder/) for each microservice of the full TripInsights application is provided **[here (*docker files*)](../dockerfiles)** and **[here (*source code*)](../src)**.  Your first task shoud be to build and running Docker containers locally.  (*'Locally' could mean on your laptop, using Docker Desktop, or on a Azure VM*.) Match the `Dockerfile` to the source code to build the POI application.
 
 Once you are able to set up a SQL Server, create a database called *mydrivingDB* and add sample data using the following command: `docker run -e SQLFQDN=<servername> -e SQLUSER=<db-user> -e SQLPASS=<password> -e SQLDB=mydrivingDB vyta/data-load:v1`. Then, configure the POI application to connect to this SQL Server so you can test that the application works. You can find the [curl commands](https://github.com/vyta/openhack-containers/tree/master/src/poi#testing) to test the applications endpoints in the POI applications README.
 
-> NOTE: Set the `ASPNETCORE_ENVIRONMENT` environment variable in POI to `Local`. This configures the application to skip the use of SSL encryption, allowing connection to the local sql server.
+> **IMPORTANT**: Set the `ASPNETCORE_ENVIRONMENT` environment variable in POI to `Local`. This configures the application to skip the use of SSL encryption, allowing connection to the local sql server.
 
 ### Building and Pushing TripInsights Images
 
