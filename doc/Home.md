@@ -27,3 +27,13 @@ We do not provide guides or instructions to solve the challenges, just a few hin
 ### One final tip: **Read everything very carefully**
 
 The OpenHack team have worked hard to ensure each problem is solvable. All the details you should need are within the challenge briefs, which are very carefully written and worded to give you clues toward the solution. Reading them fully is the best way to figure out a solution, as small points can be easily missed. Your coaches will help to fill gaps in your understanding, provided you ask them the right questions.
+
+## Challenges
+* [Challenge 1](Challenge-1.md)
+* [Challenge 2](Challenge-2.md)
+* [Challenge 3](Challenge-3.md)
+* [Challenge 4](Challenge-4.md)
+* [Challenge 5](Challenge-5.md)
+* [Challenge 6](Challenge-6.md)
+* [Challenge 7](Challenge-7.md)
+* [Challenge 8](Challenge-8.md)
